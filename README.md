@@ -36,7 +36,7 @@ pip install wandb
 
 3. **Run the notebook**
    
-   Open and run [`quantization.ipynb`](quantization.ipynb) in Jupyter or Google Colab.
+   Open and run [`model_training_script.ipynb`](quantization.ipynb) in Jupyter or Google Colab.
 
 ## Dataset
 
@@ -77,7 +77,7 @@ Compare model sizes and performance:
 
 - [Unsloth QAT Documentation](https://docs.unsloth.ai/basics/quantization-aware-training-qat)
 - [TorchAO GitHub](https://github.com/pytorch/ao)
-- [Qwen3 Model Card](https://huggingface.co/Qwen/Qwen3-4B-Instruct)
+- [Qwen3 Model Card](https://huggingface.co/unsloth/Qwen3-4B-Instruct-2507)
 
 ## License
 
