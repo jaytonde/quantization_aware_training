@@ -9,14 +9,6 @@ This project demonstrates how to apply different quantization strategies to redu
 - **PTQ (Post-Training Quantization)**: Quantize a pre-trained model after training
 - **QAT (Quantization-Aware Training)**: Train the model with quantization in mind
 
-## Features
-
-- Fine-tune Qwen3-4B model using LoRA adapters
-- Apply INT4 quantization using TorchAO
-- Compare model performance between QAT and PTQ approaches
-- WandB integration for experiment tracking
-- Automated model upload to Hugging Face Hub
-
 ## Requirements
 
 ```bash
@@ -46,14 +38,6 @@ pip install wandb
    
    Open and run [`quantization.ipynb`](quantization.ipynb) in Jupyter or Google Colab.
 
-## Workflow
-
-1. **Load Model**: Load Qwen3-4B-Instruct model
-2. **Add LoRA**: Apply LoRA adapters for parameter-efficient fine-tuning
-3. **Fine-tune**: Train on FineTome-100k dataset
-4. **Quantize**: Apply INT4 quantization (QAT or PTQ)
-5. **Save & Upload**: Save model and push to Hugging Face Hub
-
 ## Dataset
 
 The notebook uses the [FineTome-100k](https://huggingface.co/datasets/mlabonne/FineTome-100k) dataset for fine-tuning.
@@ -63,9 +47,9 @@ The notebook uses the [FineTome-100k](https://huggingface.co/datasets/mlabonne/F
 Trained models are available on Hugging Face:
 
 * **Trained Models:**
-      * [Qwen3-4B-Baseline (BF16)](https://huggingface.co/jaytonde05/Qwen3_4B_baseline/tree/main)
-      * [Qwen3-4B-PTQ (4-bit)](https://huggingface.co/jaytonde05/Qwen3_4B_PTQ/tree/main)
-      * [Qwen3-4B-QAT (4-bit)](https://huggingface.co/jaytonde05/Qwen3_4B_QAT-torchao/tree/main)
+*  [Qwen3-4B-Baseline (BF16)](https://huggingface.co/jaytonde05/Qwen3_4B_baseline/tree/main)
+*  [Qwen3-4B-PTQ (4-bit)](https://huggingface.co/jaytonde05/Qwen3_4B_PTQ/tree/main)
+*  [Qwen3-4B-QAT (4-bit)](https://huggingface.co/jaytonde05/Qwen3_4B_QAT-torchao/tree/main)
   * **Wandb runs:**
       * [Qwen3-4B-QAT (4-bit)](https://wandb.ai/jaytonde05/QuantizationTraining/runs/qj03sk8d?nw=nwuserjaytonde05)
       * [Qwen3-4B-PTQ (4-bit)](https://wandb.ai/jaytonde05/QuantizationTraining/runs/1txptynn) 
