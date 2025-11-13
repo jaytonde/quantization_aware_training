@@ -47,20 +47,13 @@ The notebook uses the [FineTome-100k](https://huggingface.co/datasets/mlabonne/F
 Trained models are available on Hugging Face:
 
 * **Trained Models:**
-*  [Qwen3-4B-Baseline (BF16)](https://huggingface.co/jaytonde05/Qwen3_4B_baseline/tree/main)
-*  [Qwen3-4B-PTQ (4-bit)](https://huggingface.co/jaytonde05/Qwen3_4B_PTQ/tree/main)
-*  [Qwen3-4B-QAT (4-bit)](https://huggingface.co/jaytonde05/Qwen3_4B_QAT-torchao/tree/main)
+   *  [Qwen3-4B-Baseline (BF16)](https://huggingface.co/jaytonde05/Qwen3_4B_baseline/tree/main)
+   *  [Qwen3-4B-PTQ (4-bit)](https://huggingface.co/jaytonde05/Qwen3_4B_PTQ/tree/main)
+   *  [Qwen3-4B-QAT (4-bit)](https://huggingface.co/jaytonde05/Qwen3_4B_QAT-torchao/tree/main)
 
 * **Wandb runs:**
-* [Qwen3-4B-QAT (4-bit)](https://wandb.ai/jaytonde05/QuantizationTraining/runs/qj03sk8d?nw=nwuserjaytonde05)
-* [Qwen3-4B-PTQ (4-bit)](https://wandb.ai/jaytonde05/QuantizationTraining/runs/1txptynn) 
-
-## Key Components
-
-- **Model**: Qwen3-4B-Instruct
-- **Quantization**: INT4 weight-only quantization
-- **Training**: LoRA fine-tuning with SFTTrainer
-- **Monitoring**: Weights & Biases (WandB)
+   * [Qwen3-4B-QAT (4-bit)](https://wandb.ai/jaytonde05/QuantizationTraining/runs/qj03sk8d?nw=nwuserjaytonde05)
+   * [Qwen3-4B-PTQ (4-bit)](https://wandb.ai/jaytonde05/QuantizationTraining/runs/1txptynn) 
 
 ## Configuration
 
