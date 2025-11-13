@@ -51,9 +51,9 @@ Trained models are available on Hugging Face:
 *  [Qwen3-4B-PTQ (4-bit)](https://huggingface.co/jaytonde05/Qwen3_4B_PTQ/tree/main)
 *  [Qwen3-4B-QAT (4-bit)](https://huggingface.co/jaytonde05/Qwen3_4B_QAT-torchao/tree/main)
 
-  * **Wandb runs:**
-      * [Qwen3-4B-QAT (4-bit)](https://wandb.ai/jaytonde05/QuantizationTraining/runs/qj03sk8d?nw=nwuserjaytonde05)
-      * [Qwen3-4B-PTQ (4-bit)](https://wandb.ai/jaytonde05/QuantizationTraining/runs/1txptynn) 
+* **Wandb runs:**
+* [Qwen3-4B-QAT (4-bit)](https://wandb.ai/jaytonde05/QuantizationTraining/runs/qj03sk8d?nw=nwuserjaytonde05)
+* [Qwen3-4B-PTQ (4-bit)](https://wandb.ai/jaytonde05/QuantizationTraining/runs/1txptynn) 
 
 ## Key Components
 
